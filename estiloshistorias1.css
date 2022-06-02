@@ -1,20 +1,15 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
 }
 
 body {
-    background-image: url("imagenes/entrecarpinchos2.JPG" );
+    background-image: url("imagenes/entrecarpinchos2.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-repeat: no-repeat;
     width: 90%;
     margin: 20px auto;
-}
-
-.historias1:hover, .historias2:hover, .historias3:hover, .historias4:hover{
-    background: #fff;
-  
 }
 
 .historias1 {
@@ -101,6 +96,7 @@ body {
     left: 180px;
     text-align: left;
 }
+
 .historias4 {
     width: 90%;
     Height: 240px;
@@ -129,6 +125,15 @@ body {
     text-align: left;
 }
 
+.historias1:hover,
+.historias2:hover,
+.historias3:hover,
+.historias4:hover {
+    background: #fff;
+
+}
+
+
 a {
     margin-right: 200px;
     margin-bottom: 15px;
@@ -139,6 +144,6 @@ a {
 }
 
 a:hover {
-    color:azure;
+    color: azure;
     background-color: #000;
 }
